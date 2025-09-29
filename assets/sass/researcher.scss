@@ -64,8 +64,8 @@ $y-medium: 1.0rem;
     a {
         @extend %link-default;
     }
-    p {
-        margin-bottom: $y-small;
+    p,li {
+        margin-bottom: $y-medium;
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;
